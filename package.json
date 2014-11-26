@@ -1,0 +1,17 @@
+{
+  "name": "lesstest",
+  "version": "1.0.0",
+  "description": "less bug-hunting",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "less": "^2.0.0",
+    "less-plugin-npm-import": "git://github.com/less/less-plugin-npm-import",
+    "npm-import-plugin-test": "^1.0.0"
+  }
+}
