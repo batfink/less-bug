@@ -1,4 +1,4 @@
 less-bug
 ========
 
-Bug hunting
+[Bug hunting](../gulpfile.js)
