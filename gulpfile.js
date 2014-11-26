@@ -10,9 +10,9 @@ gulp.task('default', function() {
         log = console.log.bind(console);
 
     // Works with Less 2.0.0 but in 2.1.0 it returns "[TypeError: undefined is not a function]"
-    // less.render(file, options)
-    //     .then(log)
-    //     .catch(log);
+    less.render(file, options)
+        .then(log)
+        .catch(log);
 
 
     // Works with Less 2.1.0
